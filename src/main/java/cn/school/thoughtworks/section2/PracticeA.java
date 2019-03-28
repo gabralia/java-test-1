@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class PracticeA {
-    Map<String,Integer> countSameElements(List<String> collection1) {
+    public Map<String,Integer> countSameElements(List<String> collection1) {
 //        java8方法
 //        return  collection1.stream().collect(Collectors.groupingBy(p -> p,Collectors.counting()));
 
